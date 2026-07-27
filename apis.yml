@@ -1,21 +1,43 @@
 aid: foresight
 name: Foresight
-description: 'Foresight is a company surfaced as a portfolio company of creandum and added to the API
-  Evangelist network as a stub for enrichment. Sector: other. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Foresight is a predictive project-delivery platform for complex construction
+  and infrastructure megaprojects, with a particular focus on data centers, government,
+  and critical infrastructure. Founded by Dr. Atif Ansar and Igor Shifrin (Oxford) and
+  headquartered in London, it layers on top of existing scheduling tools such as Microsoft
+  Project and Excel to turn raw schedule data into forecasts, risk assessment, delay
+  prediction, and portfolio-wide project assurance. The company reports managing $100B+
+  in mission-critical projects and is backed by Creandum and Macquarie Capital. Foresight
+  is delivered as a SaaS web application and does not publish a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/foresight/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - creandum
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6874e1d36bec56d4cb815a9d/687f7429c220848f8f71f28e_Foresightworks-OGimage.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Other
+- Construction
+- Infrastructure
+- Project Management
+- Predictive Analytics
+- Data Centers
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.foresight.works/
+- type: About
+  url: https://www.foresight.works/company
+- type: Blog
+  url: https://www.foresight.works/blog
+- type: Support
+  url: https://www.foresight.works/contact
+- type: Login
+  url: https://kc.works/login
+- type: PrivacyPolicy
+  url: https://www.foresight.works/privacy
+- type: TermsOfService
+  url: https://www.foresight.works/terms
+- type: DomainSecurity
+  url: security/foresight-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
