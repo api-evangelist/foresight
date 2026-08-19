@@ -27,7 +27,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.prod.website-files.com/6874e1d36bec56d4cb815a9d/687f7429c220848f8f71f28e_Foresightworks-OGimage.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
