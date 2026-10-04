@@ -47,7 +47,7 @@ tags:
 - Infrastructure
 - Project Management
 - Predictive Analytics
-- Data-Center
+- Data Center
 - Software-as-a-Service
 tags_raw:
 - Company
@@ -57,6 +57,7 @@ tags_raw:
 - Predictive Analytics
 - Data Centers
 - SaaS
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
